@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educa Event - Eventos Acadêmicos</title>
+    <link rel="stylesheet" href="../style/todos.css">
+</head>
+<body>
+    <!-- Header comum a todas as páginas -->
+    <header>
+        <div class="logo">
+            <h1>Educa Event</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="./EncontreEventos.html">Eventos</a></li>
+                <li><a href="./Universidades.html">Universidades</a></li>
+                <li><a href="./Planos.html">Planos</a></li>
+                <li><a href="./Contato.html">Contato</a></li>
+                <li><a href="./Login.html">Login/Cadastro</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção de busca e filtros -->
+    <section class="event-filter">
+        <h2>Encontre Eventos Acadêmicos</h2>
+        <form class="filter-form">
+            <input type="text" placeholder="Pesquisar eventos..." />
+            <select>
+                <option value="todos">Todas as categorias</option>
+                <option value="palestras">Palestras</option>
+                <option value="workshops">Workshops</option>
+                <option value="congressos">Congressos</option>
+            </select>
+            <button type="submit" class="btn">Buscar</button>
+        </form>
+    </section>
+
+    <!-- Lista de Eventos -->
+    <section class="event-list">
+        <h3>Resultados da Pesquisa</h3>
+        <div class="event-grid">
+            <div class="event-card card">
+                <h4>Seminário de Ciência de Dados</h4>
+                <p>UNIT - 12 de Novembro</p>
+                <a href="#" class="btn">Ver Detalhes</a>
+            </div>
+            <div class="event-card card">
+                <h4>Palestra sobre IA no Mercado de Trabalho</h4>
+                <p>UNIT - 15 de Novembro</p>
+                <a href="#" class="btn">Ver Detalhes</a>
+            </div>
+            <!-- Outros eventos aqui -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Educa Event. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

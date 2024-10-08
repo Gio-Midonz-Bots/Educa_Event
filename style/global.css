@@ -1,0 +1,81 @@
+/* Cores e fontes principais */
+:root {
+    --primary-color: #0073e6;    /* Azul principal */
+    --secondary-color: #ff6f61;  /* Cor de destaque (botões, etc.) */
+    --background-color: #f5f5f5; /* Cor de fundo */
+    --text-color: #333;          /* Cor do texto principal */
+    --font-family: 'Arial', sans-serif; /* Fonte principal */
+    --font-size-base: 16px;      /* Tamanho de fonte base */
+    --border-radius-base: 8px;   /* Bordas arredondadas padrão */
+    --padding-base: 10px;        /* Espaçamento padrão */
+}
+
+/* Aplicando estilo global */
+body {
+    font-family: var(--font-family);
+    font-size: var(--font-size-base);
+    color: var(--text-color);
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 0;
+}
+
+/* Padrão para títulos */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    color: var(--primary-color);
+    margin-bottom: 15px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+/* Links */
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--secondary-color);
+    text-decoration: underline;
+}
+
+/* Botões */
+button, .btn {
+    background-color: var(--secondary-color);
+    color: #fff;
+    border: none;
+    padding: var(--padding-base) 20px;
+    border-radius: var(--border-radius-base);
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+button:hover, .btn:hover {
+    background-color: darken(var(--secondary-color), 10%);
+}
+
+/* Layout base */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Cards */
+.card {
+    background-color: #fff;
+    border-radius: var(--border-radius-base);
+    padding: var(--padding-base);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Ajuste de imagens */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
