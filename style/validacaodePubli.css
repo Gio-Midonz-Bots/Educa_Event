@@ -1,0 +1,89 @@
+/* Estilos específicos para a página de validação de evento */
+.validate-event {
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.validate-event h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #0073e6;
+}
+
+.event-details {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.event-details h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.event-details p {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.event-details strong {
+    color: #0073e6;
+}
+
+.action-buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn-approve,
+.btn-reject {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-approve {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.btn-approve:hover {
+    background-color: #218838;
+}
+
+.btn-reject {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.btn-reject:hover {
+    background-color: #c82333;
+}
+
+/* Ajustes para responsividade */
+@media (max-width: 768px) {
+    .validate-event {
+        padding: 20px;
+    }
+
+    .event-details {
+        padding: 15px;
+    }
+
+    .action-buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+}

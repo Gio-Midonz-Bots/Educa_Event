@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro no Evento - Educa Event</title>
+    <link rel="stylesheet" href="../style/todos.css">
+ 
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <h1>Educa Event</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="./pages/EncontreEventos.html">Eventos</a></li>
+                <li><a href="./pages/Universidades.html">Universidades</a></li>
+                <li><a href="./pages/Planos.html">Planos</a></li>
+                <li><a href="./pages/Contato.html">Contato</a></li>
+                <li><a href="./pages/Login.html">Login/Cadastro</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Tela de Cadastro no Evento -->
+    <section class="register-event">
+        <h2>Inscrição no Congresso de Tecnologia</h2>
+        <form action="validate-registration.html" method="post">
+            <div class="form-group">
+                <label for="name">Nome Completo:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="university">Universidade:</label>
+                <input type="text" id="university" name="university" required>
+            </div>
+            <div class="form-group">
+                <label for="type">Tipo de Participação:</label>
+                <select id="type" name="type" required>
+                    <option value="presencial">Presencial</option>
+                    <option value="online">Online</option>
+                </select>
+            </div>
+            <button type="submit" class="btn-register">Confirmar Inscrição</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Educa Event. Todos os direitos reservados.</p>
+        <div class="footer-links">
+            <a href="#">Termos de Uso</a>
+            <a href="#">Política de Privacidade</a>
+        </div>
+    </footer>
+</body>
+</html>

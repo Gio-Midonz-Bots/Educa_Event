@@ -1,0 +1,73 @@
+/* Estilos específicos para a página de criação de evento */
+.create-event {
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.create-event h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #0073e6;
+}
+
+.event-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form-group label {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.btn-submit {
+    background-color: #0073e6;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+    background-color: #005bb5;
+}
+
+/* Ajustes para responsividade */
+@media (max-width: 768px) {
+    .create-event {
+        padding: 20px;
+    }
+
+    .event-form {
+        padding: 15px;
+    }
+}

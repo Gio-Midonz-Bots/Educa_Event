@@ -1,0 +1,106 @@
+/* Estilos do perfil do estudante */
+.profile {
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.profile h2 {
+    font-size: 2.5rem;
+    color: #0073e6;
+    margin-bottom: 30px;
+}
+
+.profile-info {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.profile-info h3 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.profile-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.profile-info ul li {
+    font-size: 1.2rem;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.event-actions a {
+    background-color: #ff6f61;
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+
+.event-actions a:hover {
+    background-color: #ff4a3d;
+}
+
+.actions .btn {
+    background-color: #0073e6;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.actions .btn:hover {
+    background-color: #005bb5;
+}
+
+/* Eventos Disponíveis */
+.available-events {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.available-events h3 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.available-events ul {
+    list-style: none;
+    padding: 0;
+}
+
+.available-events ul li {
+    font-size: 1.2rem;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.available-events a {
+    background-color: #0073e6;
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.available-events a:hover {
+    background-color: #005bb5;
+}
